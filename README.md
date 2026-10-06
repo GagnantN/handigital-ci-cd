@@ -21,6 +21,8 @@ Adresse du site en ligne :
 
 ## 2. Démarrer Jenkins
 
+Création d'une image jenkins !
+
 ## 3. Configuration
 
 ## 4. Le pipeline
