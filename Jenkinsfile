@@ -5,6 +5,11 @@ pipeline {
     stages {
         stage('Installer') { steps { sh 'npm ci' } }
         stage('Tester') { steps { sh 'npm test' } }
-        stage('Construire') { steps { sh 'npm run build' archiveArtifacts 'dist/**'} }
+        stage('Construire') {
+            steps {
+                sh 'npm run build'
+                archiveArtifacts 'dist/**'
+            }
+        }
     }
 }
