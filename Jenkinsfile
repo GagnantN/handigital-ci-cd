@@ -15,5 +15,10 @@ pipeline {
                 archiveArtifacts 'dist/**'
             }
         }
+        stage('Déployer') {
+            steps {
+                sh 'npm run deploy'
+            }
+        }
     }
 }
