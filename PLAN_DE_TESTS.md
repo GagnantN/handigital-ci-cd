@@ -10,3 +10,4 @@ La colonne « Vérifié par » contient `Test automatisé` ou `À la main`.
 | 3  | Compter une liste de 3 tâches | Le résultat est 3                | Test automatisé |
 | 4  | Ouvrir la page d'accueil      |  Le titre s'affiche              | Nicolas Gagnant |
 | 5  | Ajouter une tâche sur la page |  Le nombre affiché augmente de 1 | Nicolas Gagnant |
+| 6  | Supprimer une tâche manuel    |  Le nombre affiché réduit de 1   | Nicolas Gagnant |
