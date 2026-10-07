@@ -21,4 +21,9 @@ pipeline {
             }
         }
     }
+    post {
+        always { junit 'rapport.xml' }
+        success { echo 'Pipeline réussi' }
+        failure { echo 'Pipeline en échec' }
+    }
 }
